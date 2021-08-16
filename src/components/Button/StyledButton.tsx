@@ -47,11 +47,11 @@ const getButtonVariantProp = (prop: keyof ButtonThemeVariant) => ({
 
 const StyledButton = styled.button<ButtonProps>`
   align-items: center;
-  background-color: ${getButtonVariantProp("background")};
+  background-color: #c09a5b;
   border: ${getButtonVariantProp("border")};
   border-radius: 16px;
   box-shadow: ${getButtonVariantProp("boxShadow")};
-  color: ${getButtonVariantProp("color")};
+  color: #bfc0bf;
   cursor: pointer;
   display: inline-flex;
   font-family: inherit;
