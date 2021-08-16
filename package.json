@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/martiandefi/martian-ui-kit-dex.git"
+    "url": "git+https://github.com/yunusnode/brownie-ui.git"
   },
   "license": "MIT",
   "scripts": {
@@ -87,8 +87,8 @@
     "styled-system": "^5.1.5"
   },
   "bugs": {
-    "url": "https://github.com/martiandefi/martian-ui-kit-dex"
+    "url": "https://github.com/yunusnode/brownie-ui"
   },
-  "homepage": "https://github.com/martiandefi/martian-ui-kit-dex#readme",
+  "homepage": "https://github.com/yunusnode/brownie-ui#readme",
   "author": ""
 }
