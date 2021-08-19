@@ -2787,10 +2787,10 @@ var brandColors = {
     binance: "#F0B90B",
 };
 var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#323232", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", inputBorder: "#cccccc", tertiary: "#EFF4F5", text: "#FFFFFF", textDisabled: "#BDC2C4", textSubtle: "#FFFFFF", borderColor: "#E9EAEB", card: "#191919", gradients: {
-        bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
+      bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#e9f1fd", background: "#323232", backgroundDisabled: "#bfc0bf", contrast: "#FFFFFF", invertedContrast: "#0a0e17", input: "#483f3b", inputBorder: "#cccccc", primaryDark: "#599e17", tertiary: "#2d2f37", text: "#bfc0bf", textDisabled: "#666171", textSubtle: "#c09a5e", borderColor: "#524B63", card: "#191919", gradients: {
-        bubblegum: "linear-gradient(139.73deg, #1f606f 0%, #164865 100%)",
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), {brwn: "#c09a5e", secondary: "#fda90f", background: "#323232", tertiary: "#2d2f37", backgroundDisabled: "#c09a5e", contrast: "#FFFFFF", invertedContrast: "#0a0e17", input: "#483f3b", inputBorder: "#cccccc", primaryDark: "#599e17", text: "#bfc0bf", textDisabled: "#FFFFFF", textSubtle: "#c09a5e", borderColor: "#524B63", card: "#191919", gradients: {  
+   bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
 
 var light = {
@@ -2804,47 +2804,47 @@ var _a$2, _b;
 var PRIMARY = variants.PRIMARY, SECONDARY = variants.SECONDARY, TERTIARY = variants.TERTIARY, TEXT = variants.TEXT, DANGER = variants.DANGER, SUBTLE = variants.SUBTLE, SUCCESS = variants.SUCCESS;
 var light$1 = (_a$2 = {},
     _a$2[PRIMARY] = {
-        background: lightColors.primary,
-        backgroundActive: lightColors.primaryDark,
-        backgroundHover: lightColors.primaryBright,
+        background: darkColors.primary,
+        backgroundActive: darkColors.primaryDark,
+        backgroundHover: darkColors.primaryBright,
         border: 0,
         borderColorHover: "currentColor",
         boxShadow: "inset 0px -1px 0px rgba(14, 14, 44, 0.4)",
         boxShadowActive: "inset 0px -1px 0px rgba(14, 14, 44, 0.4)",
-        color: "#FFFFFF",
+        color: "#FFFFFF", //Unlock buton rengi
     },
     _a$2[SECONDARY] = {
         background: "transparent",
         backgroundActive: "transparent",
         backgroundHover: "transparent",
-        border: "2px solid " + lightColors.primary,
-        borderColorHover: lightColors.primaryBright,
+        border: "2px solid " + darkColors.primary,
+        borderColorHover: darkColors.primaryBright,
         boxShadow: "none",
         boxShadowActive: "none",
-        color: lightColors.primary,
+        color: darkColors.primary,
     },
     _a$2[TERTIARY] = {
-        background: lightColors.tertiary,
-        backgroundActive: lightColors.tertiary,
-        backgroundHover: lightColors.tertiary,
+        background: darkColors.tertiary,
+        backgroundActive: darkColors.tertiary,
+        backgroundHover: darkColors.tertiary,
         border: 0,
         borderColorHover: "currentColor",
         boxShadow: "none",
         boxShadowActive: "none",
-        color: lightColors.primary,
+        color: darkColors.primary,
     },
     _a$2[TEXT] = {
         background: "transparent",
         backgroundActive: "transparent",
-        backgroundHover: lightColors.tertiary,
+        backgroundHover: darkColors.tertiary,
         border: 0,
         borderColorHover: "currentColor",
         boxShadow: "none",
         boxShadowActive: "none",
-        color: lightColors.primary,
+        color: darkColors.primary,
     },
     _a$2[DANGER] = {
-        background: lightColors.failure,
+        background: darkColors.failure,
         backgroundActive: "#D43285",
         backgroundHover: "#FF65B8",
         border: 0,
@@ -2854,19 +2854,19 @@ var light$1 = (_a$2 = {},
         color: "#FFFFFF",
     },
     _a$2[SUBTLE] = {
-        background: lightColors.textSubtle,
-        backgroundActive: lightColors.textSubtle + "D9",
-        backgroundHover: lightColors.textSubtle + "B3",
+        background: darkColors.textSubtle,
+        backgroundActive: darkColors.textSubtle + "D9",
+        backgroundHover: darkColors.textSubtle + "B3",
         border: 0,
         borderColorHover: "currentColor",
         boxShadow: "none",
         boxShadowActive: "none",
-        color: "",
+        color: "", //burası boş kalacak
     },
     _a$2[SUCCESS] = {
-        background: lightColors.success,
-        backgroundActive: lightColors.success + "D9",
-        backgroundHover: lightColors.success + "B3",
+        background: darkColors.success,
+        backgroundActive: darkColors.success + "D9",
+        backgroundHover: darkColors.success + "B3",
         border: 0,
         borderColorHover: "currentColor",
         boxShadow: "none",
