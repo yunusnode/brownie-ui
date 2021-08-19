@@ -2,7 +2,7 @@ import { Colors } from "./types";
 
 export const baseColors = {
   failure: "#F72B50",
-  primary: "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), linear-gradient(rgb(216, 190, 82), rgb(167, 125, 51) 9%, rgb(95, 63, 29) 93%, rgb(28, 20, 13))", // color of the icons on navbar, scrollbar on right side, fill color of harvest and approve contracts
+  primary: "#FFAB2D", // color of the icons on navbar, scrollbar on right side, fill color of harvest and approve contracts
   primaryBright: "#599e17",
   primaryDark: "#599e17",
   secondary: "#7645D9",
@@ -24,7 +24,7 @@ export const lightColors: Colors = {
   input: "#eeeaf4", //'stake only' slider
   inputBorder: "#cccccc",
   tertiary: "#EFF4F5", //color of highlighted box on navbar
-  text: "#FFFFFF", //color of words on home menu cards eg farms & staking
+  text: "#bfc0bf", //color of words on home menu cards eg farms & staking
   textDisabled: "#BDC2C4", //color of boxes non highlighted on menu, might actually be the unhighlighted harvest word
   textSubtle: "#FFFFFF", //color of text on menu dropdown items
   borderColor: "#E9EAEB", //The small line on the left side, not important
