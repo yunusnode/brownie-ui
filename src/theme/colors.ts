@@ -2,7 +2,7 @@ import { Colors } from "./types";
 
 export const baseColors = {
   failure: "#F72B50",
-  primary: "#bf3745", // color of the icons on navbar, scrollbar on right side, fill color of harvest and approve contracts
+  primary: "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), linear-gradient(rgb(216, 190, 82), rgb(167, 125, 51) 9%, rgb(95, 63, 29) 93%, rgb(28, 20, 13))", // color of the icons on navbar, scrollbar on right side, fill color of harvest and approve contracts
   primaryBright: "#599e17",
   primaryDark: "#599e17",
   secondary: "#7645D9",
